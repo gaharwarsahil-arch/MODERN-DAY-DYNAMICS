@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>State Scanner | Modern Relationship Dynamics</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html">MODERN RELATIONSHIP DYNAMICS</a>
+      <nav>
+        <a href="about.html">About</a>
+        <a href="equations.html">Equation Lab</a>
+        <a href="programs.html">Programs</a>
+        <a href="charter.html">Ethics</a>
+        <a href="contact.html">Mentorship</a>
+        <a class="btn btn-primary" href="state-scanner.html">Calculate Equilibrium</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="panel">
+        <div class="badge">Step 1 of 3</div>
+        <h1>State Scanner: 2-Minute Relationship Diagnostic</h1>
+        <p>Slogan: "Name the pattern. Shift the outcome."</p>
+      </section>
+
+      <section class="panel">
+        <form id="scannerForm">
+          <div class="input-grid">
+            <div>
+              <label for="threatReactivity">Threat Reactivity (1-10)</label>
+              <p class="hint">How often did panic or urgency drive your behavior?</p>
+              <input type="number" id="threatReactivity" name="threatReactivity" min="1" max="10" value="7" required />
+            </div>
+            <div>
+              <label for="responsiveness">Responsiveness (1-10)</label>
+              <p class="hint">How consistent and timely was communication?</p>
+              <input type="number" id="responsiveness" name="responsiveness" min="1" max="10" value="5" required />
+            </div>
+            <div>
+              <label for="repairAttempts">Repair Attempts (1-10)</label>
+              <p class="hint">How often did one of you try to repair after tension?</p>
+              <input type="number" id="repairAttempts" name="repairAttempts" min="1" max="10" value="4" required />
+            </div>
+            <div>
+              <label for="oneSidedPursuit">One-Sided Pursuit (1-10)</label>
+              <p class="hint">How often did one person carry the interaction?</p>
+              <input type="number" id="oneSidedPursuit" name="oneSidedPursuit" min="1" max="10" value="7" required />
+            </div>
+            <div>
+              <label for="defensiveness">Defensiveness (1-10)</label>
+              <p class="hint">How much blame/protection/shutdown showed up in conflict?</p>
+              <input type="number" id="defensiveness" name="defensiveness" min="1" max="10" value="7" required />
+            </div>
+            <div>
+              <label for="boundaryClarity">Boundary Clarity (1-10)</label>
+              <p class="hint">How clear were boundaries and expectations?</p>
+              <input type="number" id="boundaryClarity" name="boundaryClarity" min="1" max="10" value="5" required />
+            </div>
+          </div>
+
+          <div class="row" style="margin-top: 1rem;">
+            <label><input type="radio" name="mode" value="individual" checked /> Individual</label>
+            <label><input type="radio" name="mode" value="couple" /> Couple</label>
+            <label><input type="radio" name="mode" value="both" /> Both</label>
+          </div>
+
+          <div style="margin-top: 0.8rem;">
+            <label for="goal">Primary Goal</label>
+            <select id="goal" name="goal">
+              <option value="Reduce anxiety">Reduce anxiety</option>
+              <option value="Stop over-pursuit">Stop over-pursuit</option>
+              <option value="Improve conflict">Improve conflict</option>
+              <option value="Rebuild trust">Rebuild trust</option>
+            </select>
+          </div>
+
+          <div class="row" style="margin-top: 1rem;">
+            <label><input type="checkbox" required /> I agree to pro-social recommendations only.</label>
+          </div>
+
+          <div class="actions">
+            <button class="btn btn-primary" type="submit">Generate My Equilibrium Report</button>
+            <a class="btn btn-whatsapp" href="https://wa.me/918279890892?text=Hi%20I%20need%20help%20filling%20the%20state%20scanner" target="_blank" rel="noopener noreferrer">Need Help? WhatsApp 8279890892</a>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Educational tool only. Not crisis intervention.</p>
+    </footer>
+
+    <a class="floating-wa" href="https://wa.me/918279890892?text=Hi%20I%20need%20help%20with%20the%20scanner" target="_blank" rel="noopener noreferrer">WhatsApp Help</a>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/scanner.js"></script>
+  </body>
+</html>

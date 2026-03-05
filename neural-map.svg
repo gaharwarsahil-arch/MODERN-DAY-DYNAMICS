@@ -1,0 +1,24 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" fill="#0A1621"/>
+  <g stroke="#89D9D0" stroke-width="2" stroke-opacity="0.55">
+    <circle cx="180" cy="120" r="14"/>
+    <circle cx="310" cy="200" r="11"/>
+    <circle cx="420" cy="95" r="13"/>
+    <circle cx="560" cy="240" r="10"/>
+    <circle cx="720" cy="130" r="12"/>
+    <circle cx="860" cy="260" r="10"/>
+    <circle cx="980" cy="140" r="12"/>
+    <circle cx="1030" cy="340" r="14"/>
+    <circle cx="790" cy="420" r="13"/>
+    <circle cx="610" cy="360" r="11"/>
+    <circle cx="430" cy="430" r="12"/>
+    <circle cx="260" cy="350" r="11"/>
+  </g>
+  <g stroke="#89D9D0" stroke-opacity="0.32" stroke-width="2">
+    <path d="M180 120L310 200L420 95L560 240L720 130L860 260L980 140L1030 340L790 420L610 360L430 430L260 350L180 120"/>
+    <path d="M310 200L260 350L430 430L560 240"/>
+    <path d="M720 130L610 360L790 420L860 260"/>
+  </g>
+  <text x="90" y="610" fill="#DBF7FF" font-size="44" font-family="'Segoe UI', sans-serif" font-weight="700">Neural Trust Map</text>
+  <text x="90" y="646" fill="#8AB9C7" font-size="22" font-family="'Segoe UI', sans-serif">Watch patterns become visible, measurable, and changeable.</text>
+</svg>
